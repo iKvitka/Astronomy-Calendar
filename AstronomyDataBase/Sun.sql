@@ -1,5 +1,0 @@
-﻿CREATE TABLE [dbo].[Sun]
-(
-	[PK_SunID] INT NOT NULL PRIMARY KEY, 
-    [RiseTime] NCHAR(10) NOT NULL
-)

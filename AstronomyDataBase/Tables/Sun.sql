@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Sun]
+(
+	[PK_SunID] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [RiseTime] TIME NOT NULL, 
+    [SetTime] TIME NOT NULL
+)

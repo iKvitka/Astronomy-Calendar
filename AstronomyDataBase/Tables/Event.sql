@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Event]
+(
+	[PK_EventID] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Description] NVARCHAR(50) NULL, 
+    [EventURL] NVARCHAR(50) NULL
+)

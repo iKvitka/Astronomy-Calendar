@@ -14,4 +14,25 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="PK_SunID" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="a5334ad3-f2e0-461a-ab17-cb0a2c12d0b5" ChangeDateTime="03/04/2020 11:31:47">
+    <Property Name="ElementName" Value="[dbo].[Moon].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Moon]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PK_MoonID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9e123db3-2f13-414b-8e90-8272ce529ccf" ChangeDateTime="03/04/2020 11:42:17">
+    <Property Name="ElementName" Value="[dbo].[Event].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Event]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PK_EventID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6a7a2e1f-2226-466d-897e-af00fe577108" ChangeDateTime="03/04/2020 11:53:49">
+    <Property Name="ElementName" Value="[dbo].[Calendar].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Calendar]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PK_DayID" />
+  </Operation>
 </Operations>
