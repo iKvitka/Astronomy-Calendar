@@ -61,10 +61,13 @@
   <ItemGroup>
     <Build Include="Tables\Sun.sql" />
     <Build Include="Tables\Moon.sql" />
-    <Build Include="Tables\SkyEvent.sql" />
+    <Build Include="Tables\Event.sql" />
     <Build Include="Tables\Calendar.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="AstronomyDataBase.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LocalAstronomyDB.publish.xml" />
   </ItemGroup>
 </Project>

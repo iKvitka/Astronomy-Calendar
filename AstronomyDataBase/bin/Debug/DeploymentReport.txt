@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Calendar] (Table)
+       [dbo].[Event] (Table)
+       [dbo].[Moon] (Table)
+       [dbo].[Sun] (Table)
+       [dbo].[FK_SunID] (Foreign Key)
+       [dbo].[FK_MoonID] (Foreign Key)
+       [dbo].[FK_EventID] (Foreign Key)
+
+** Supporting actions
